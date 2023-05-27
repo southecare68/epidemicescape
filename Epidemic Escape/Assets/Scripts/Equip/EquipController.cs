@@ -11,17 +11,12 @@ public class EquipController : MonoBehaviour
 
     private bool useInput;
 
-    [SerializeField] private ItemData testEquipItem;
 
 
     [Header("Components")]
     [SerializeField] private Transform equipObjectOrigin;
     [SerializeField] private MouseUtilities mouseUtilities;
 
-    private void Start()
-    {
-        Equip(testEquipItem);
-    }
 
     private void Update()
     {
