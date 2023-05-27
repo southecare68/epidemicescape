@@ -29,6 +29,7 @@ public class WorldItem : MonoBehaviour
         {
             Inventory.Instance.AddItem(itemToGive);
             //play sound effect
+            AudioManager.Instance.PlayPlayerSound(pickupSFX);
             Destroy(gameObject);
         }
     }

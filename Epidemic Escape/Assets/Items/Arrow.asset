@@ -16,4 +16,4 @@ MonoBehaviour:
   Description: Arrow for Bow
   Icon: {fileID: 21300000, guid: c481824454494e542bb2bbbf40387ec4, type: 3}
   MaxStackSize: 50
-  EquipPrefab: {fileID: 0}
+  EquipPrefab: {fileID: 7564232725318224101, guid: cca30c38df6a74553a230fb37c3d1e06, type: 3}

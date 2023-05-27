@@ -16,7 +16,7 @@ MonoBehaviour:
   Description: Ranged Weapon shoots arrows
   Icon: {fileID: 21300000, guid: 960a47ad9509af641a14409765bbabe5, type: 3}
   MaxStackSize: 1
-  EquipPrefab: {fileID: 0}
+  EquipPrefab: {fileID: 8399549329922195142, guid: 335be4e31b4f24024b60f86783ab16d2, type: 3}
   FireRate: 0.5
-  ProjectilePrefab: {fileID: 0}
+  ProjectilePrefab: {fileID: 7564232725318224101, guid: cca30c38df6a74553a230fb37c3d1e06, type: 3}
   ProjectileItemData: {fileID: 11400000, guid: 1ef5b34f8691d42f3bd55104721e81a0, type: 2}

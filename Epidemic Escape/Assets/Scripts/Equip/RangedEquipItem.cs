@@ -16,11 +16,16 @@ public class RangedEquipItem : EquipItem
             return;
 
         //return if we don't have a projectile in our inventory
+        if (Inventory.Instance.HasItem(i.ProjectileItemData) == false)
+            return;
 
         lastAttackTime = Time.time;
 
         //spawn the projectile
+        i.Fire(muzzle.position, muzzle.rotation, Character.Team.Player);
         //remove the projectile from inventory
+        Inventory.Instance.RemoveItem(i.ProjectileItemData);
         //play the sound effect
+        AudioManager.Instance.PlayPlayerSound(shootSFX);
     }
 }
