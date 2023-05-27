@@ -6216,6 +6216,12 @@ MonoBehaviour:
   hitSFX: {fileID: 8300000, guid: bca3b75b48468b24985f3b15bf77853a, type: 3}
   moveSpeed: 2
   chaseDistance: 4
+  dropItems:
+  - {fileID: 11400000, guid: 901eb325f5ff040be862678ef608858c, type: 2}
+  - {fileID: 11400000, guid: 30c37bfaf07c748a4ba929e58c36f7b9, type: 2}
+  - {fileID: 11400000, guid: 16e5abaafcb4f412c9251ba22fd73852, type: 2}
+  - {fileID: 11400000, guid: 93c4ade1009574d9d829ed0c2613aaf3, type: 2}
+  dropItemPrefab: {fileID: 4256503776781408707, guid: 075f3184299ea4d9eb934d76317f0781, type: 3}
   spriteRenderer: {fileID: 748402191}
   damage: 5
   attackRange: 1.5
@@ -7420,7 +7426,7 @@ MonoBehaviour:
   - {fileID: 767949442}
   - {fileID: 2045408690}
   - {fileID: 739494392}
-  TootipUI: {fileID: 0}
+  TootipUI: {fileID: 1271331366}
 --- !u!114 &1271331362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7538,7 +7544,7 @@ GameObject:
   - component: {fileID: 1315123711}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8267,7 +8273,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1621452130
 RectTransform:
   m_ObjectHideFlags: 0
